@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Watermill Tweaks</name>
+  <packageId>themattfiles.WatermillTweaks</packageId>
+  <author>themattfiles</author>
+  <supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <description></description>
+</ModMetaData>
