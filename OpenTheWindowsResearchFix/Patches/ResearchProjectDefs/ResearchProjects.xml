@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+  <xpath>/Defs/ResearchProjectDef[defName="Glassworks"]/researchViewY</xpath>
+    <value>
+      <researchViewY>4.25</researchViewY>
+    </value>
+  </Operation>
+</Patch>

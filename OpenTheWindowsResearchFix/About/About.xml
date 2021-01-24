@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[JPT] Open The Windows Research Position Fix</name>
+  <packageId>themattfiles.OpenTheWindows</packageId>
+  <author>themattfiles</author>
+  <supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <description></description>
+  <modDependencies>
+    <li>
+      <packageId>JPT.OpenTheWindows</packageId>
+      <displayName>[JPT] Open The Windows</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1971860929</steamWorkshopUrl>
+      <downloadUrl>https://steamcommunity.com/id/jptrrs/myworkshopfiles/?appid=294100</downloadUrl>
+    </li>
+  </modDependencies>
+</ModMetaData>
