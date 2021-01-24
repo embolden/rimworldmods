@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Chemshine Mortar Shells Redux</name>
+  <author>themattfiles</author>
+  <supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>oskarpotocki.vanillafactionsexpanded.settlersmodule</packageId>
+      <displayName>Vanilla Factions Expanded - Settlers</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2052918119</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <packageId>themattfiles.chemshinemortarredux</packageId>
+  <description>
+    Adds Chemshine Shells for your explosive needs!
+  </description>
+</ModMetaData>

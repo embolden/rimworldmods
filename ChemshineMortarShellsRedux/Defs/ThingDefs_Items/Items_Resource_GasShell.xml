@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Gas Shells -->
+
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>Shell_GasChemshine</defName>
+    <label>chemshine gas shell</label>
+    <description>A shell filled with highly pressurized chemshine. Can be fired from mortars. Make every shot count.</description>
+    <graphicData>
+      <texPath>Things/Items/Shell_chemshine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>5.9</explosiveRadius>
+        <explosiveDamageType>Smoke</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.4</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+        <postExplosionSpawnThingDef>ChemshineGas</postExplosionSpawnThingDef>
+        <postExplosionSpawnChance>1.0</postExplosionSpawnChance>
+        <wickTicks>
+          <min>10</min>
+          <max>30</max>
+        </wickTicks>
+      </li>
+    </comps>
+    <projectileWhenLoaded>Bullet_Shell_GasChemshine</projectileWhenLoaded>
+    <costList>
+      <Steel>20</Steel>
+      <Chemfuel>10</Chemfuel>
+      <Chemshine>10</Chemshine>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Shell_GasChemshine</defName>
+    <label>chemshine gas shell</label>
+    <graphicData>
+      <texPath>Things/Projectile/ShellHighExplosive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Smoke</damageDef>
+      <damageAmountBase>0</damageAmountBase>
+      <speed>41</speed>
+      <explosionRadius>5.9</explosionRadius>
+      <flyOverhead>true</flyOverhead>
+      <postExplosionSpawnThingDef>ChemshineGas</postExplosionSpawnThingDef>
+      <postExplosionSpawnChance>1.0</postExplosionSpawnChance>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+      <soundExplode>Explosion_Stun</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+    </projectile>
+  </ThingDef>
+</Defs>
